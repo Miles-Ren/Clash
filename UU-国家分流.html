@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clash 自动选择策略组生成器</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f5f7fa; padding: 40px 20px; text-align: center; }
+        .container { max-width: 600px; margin: 0 auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        h2 { color: #333; }
+        input { width: 100%; padding: 12px; margin: 15px 0; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box; }
+        button { background: #0070f3; color: white; border: none; padding: 12px 24px; border-radius: 6px; cursor: pointer; font-size: 16px; width: 100%; }
+        button:hover { background: #0051cb; }
+        .result { margin-top: 25px; padding: 15px; background: #f0f9ff; border-radius: 6px; display: none; text-align: left; word-break: break-all; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>⚡ Clash 自动测速订阅生成器</h2>
+    <p style="color: #666; font-size: 14px;">粘贴你的任意 Clash/V2ray 订阅，一键注入 HK/US/JP 自动选择策略组</p>
+    
+    <input type="text" id="subUrl" placeholder="请在此处粘贴原始订阅地址...">
+    <button onclick="generateSub()">一键生成新订阅</button>
+
+    <div class="result" id="resultBox">
+        <strong>🎉 你的专属订阅链接：</strong>
+        <p id="newLink" style="color: #0070f3; margin: 10px 0; font-weight: bold;"></p>
+        <button onclick="copyLink()" style="background: #28a745; font-size: 14px; padding: 6px 12px; width: auto;">复制链接</button>
+    </div>
+</div>
+
+<script>
+    // 核心逻辑：将用户输入的链接，和我们第一步做好的自定义配置结合，丢给免费公开的后端进行转换
+    function generateSub() {
+        const rawUrl = document.getElementById('subUrl').value.trim();
+        if (!rawUrl) { alert('请输入有效的订阅地址！'); return; }
+
+        // 1. 免费的公开 subconverter 后端 API（可替换为你自己找的其他稳定后端）
+        const backend = "https://api.v1.mk/sub?"; 
+        
+        // 2. 你在第一步中得到的 GitHub custom.ini 的 Raw 直链
+        const configUrl = "https://raw.githubusercontent.com/Miles-Ren/Clash/refs/heads/main/custom.ini"; 
+
+        // 3. 开始构建最终 Clash 订阅
+        const fileName = "UU_国家分流.yaml"; 
+        const groupsParam = "HK,US,JP"; 
+        const finalLink = `${backend}target=clash&url=${encodeURIComponent(rawUrl)}&scv=true&groups=${encodeURIComponent(groupsParam)}&filename=${encodeURIComponent(fileName)}&config=${encodeURIComponent(configUrl)}`;
+
+        // 显示结果
+        document.getElementById('newLink').innerText = finalLink;
+        document.getElementById('resultBox').style.display = 'block';
+    }
+
+    function copyLink() {
+        const text = document.getElementById('newLink').innerText;
+        navigator.clipboard.writeText(text).then(() => alert('复制成功！快去 Clash 里下载吧~'));
+    }
+</script>
+</body>
+</html>
