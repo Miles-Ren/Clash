@@ -1,12 +1,10 @@
-# AI Proxy Rules - All AI Providers
-# Aggregated AI provider rules.
-# https://github.com/VPSDance/ai-proxy-rules
+# 小柒定制
 
-# Adobe Firefly / Core
+# Adobe AI生成
 DOMAIN-SUFFIX,firefly.adobe.com
 DOMAIN-SUFFIX,firefly.adobe.io
 
-# Amazon Q Developer / Core
+# Amazon Q Developer 
 DOMAIN,aws-language-servers.us-east-1.amazonaws.com
 DOMAIN,aws-toolkit-language-servers.amazonaws.com
 DOMAIN,client-telemetry.us-east-1.amazonaws.com
@@ -23,7 +21,7 @@ DOMAIN-SUFFIX,q.eu-central-1.amazonaws.com
 DOMAIN-SUFFIX,q.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,sso.amazonaws.com
 
-# Anthropic / Core
+# Anthropic 
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,anthropic.com.cn
 DOMAIN-SUFFIX,antspace.dev
@@ -72,16 +70,16 @@ DOMAIN-KEYWORD,datadog
 DOMAIN-KEYWORD,sentry
 DOMAIN-KEYWORD,sift
 
-# Augment Code / Core
+# Augment Code 
 DOMAIN-SUFFIX,augmentcode.com
 
-# Black Forest Labs / Core
+# Black Forest Labs 
 DOMAIN-SUFFIX,bfl.ai
 
-# Bolt.new / Core
+# Bolt.new 
 DOMAIN-SUFFIX,bolt.new
 
-# ByteDance AI / Core
+# ByteDance AI 
 DOMAIN-SUFFIX,abtestvm-sg.bytedance.com
 DOMAIN-SUFFIX,bytegate-sg.byteintlapi.com
 DOMAIN-SUFFIX,byteoversea.com
@@ -97,39 +95,39 @@ DOMAIN-SUFFIX,trae-api-sg.mchost.guru
 DOMAIN-SUFFIX,trae.ai
 DOMAIN-SUFFIX,tron-sg.bytelemon.com
 
-# Cerebras / Core
+# Cerebras 
 DOMAIN-SUFFIX,cerebras.ai
 
-# Character.AI / Core
+# Character.AI 
 DOMAIN-SUFFIX,character.ai
 
-# Chutes / Core
+# Chutes 
 DOMAIN-SUFFIX,chutes.ai
 
-# Civitai / Core
+# Civitai 
 DOMAIN-SUFFIX,civitai.com
 
-# ClipDrop / Core
+# ClipDrop 
 DOMAIN-SUFFIX,clipdrop.co
 
-# Cloudflare AI / Core
+# Cloudflare AI 
 DOMAIN-SUFFIX,ai.cloudflare.com
 
-# CodeRabbit / Core
+# CodeRabbit 
 DOMAIN-SUFFIX,coderabbit.ai
 
-# Cohere / Core
+# Cohere 
 DOMAIN-SUFFIX,cohere.ai
 DOMAIN-SUFFIX,cohere.com
 
-# ComfyUI / Core
+# ComfyUI 
 DOMAIN-SUFFIX,comfy.org
 DOMAIN-SUFFIX,comfyregistry.org
 
-# Continue / Core
+# Continue 
 DOMAIN-SUFFIX,continue.dev
 
-# Copilot / Core
+# Copilot 
 DOMAIN,location.microsoft.com
 DOMAIN,odc.officeapps.live.com
 DOMAIN-SUFFIX,copilot.microsoft.com
@@ -164,54 +162,54 @@ DOMAIN-SUFFIX,observeit.net
 DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,stripe.com
 
-# CrewAI / Core
+# CrewAI 
 DOMAIN-SUFFIX,crewai.com
 
-# Cursor / Core
+# Cursor 
 DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursorapi.com
 
-# DeepInfra / Core
+# DeepInfra 
 DOMAIN-SUFFIX,deepinfra.com
 
-# Descript / Core
+# Descript 
 DOMAIN-SUFFIX,descript.com
 
-# Devin / Core
+# Devin 
 DOMAIN-SUFFIX,devin.ai
 
-# Dia Browser / Core
+# Dia Browser 
 DOMAIN-SUFFIX,diabrowser.com
 DOMAIN-SUFFIX,diabrowser.engineering
 
-# Dify / Core
+# Dify 
 DOMAIN-SUFFIX,dify.ai
 
-# DuckDuckGo AI / Core
+# DuckDuckGo AI 
 DOMAIN-SUFFIX,duck.ai
 
-# Eigent / Core
+# Eigent 
 DOMAIN-SUFFIX,eigent.ai
 
-# ElevenLabs / Core
+# ElevenLabs 
 DOMAIN-SUFFIX,elevenlabs.com
 DOMAIN-SUFFIX,elevenlabs.io
 
-# Factory / Core
+# Factory 
 DOMAIN-SUFFIX,factory.ai
 
-# Fireworks AI / Core
+# Fireworks AI 
 DOMAIN-SUFFIX,fireworks.ai
 
-# Gamma / Core
+# Gamma 
 DOMAIN-SUFFIX,gamma.app
 
-# Genspark / Core
+# Genspark 
 DOMAIN-SUFFIX,genspark.ai
 
-# Google AI / Core
+# Google AI 
 DOMAIN-SUFFIX,ai.google.dev
 DOMAIN-SUFFIX,ai.studio
 DOMAIN-SUFFIX,aistudio.google.com
@@ -255,85 +253,85 @@ DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
 DOMAIN-SUFFIX,stitch.withgoogle.com
 
-# Grammarly / Core
+# Grammarly 
 DOMAIN-SUFFIX,grammarly.com
 
-# Groq / Core
+# Groq 
 DOMAIN-SUFFIX,groq.com
 
-# H2O.ai / Core
+# H2O.ai 
 DOMAIN-SUFFIX,h2o.ai
 
-# Hermes Agent / Core
+# Hermes Agent 
 DOMAIN-SUFFIX,hermes-agent.nousresearch.com
 
-# HeyGen / Core
+# HeyGen 
 DOMAIN-SUFFIX,heygen.com
 
-# Hugging Face / Core
+# Hugging Face 
 DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,hf.space
 DOMAIN-SUFFIX,huggingface.co
 
-# Ideogram / Core
+# Ideogram 
 DOMAIN-SUFFIX,ideogram.ai
 
-# Inflection / Pi / Core
+# Inflection / Pi 
 DOMAIN-SUFFIX,inflection.ai
 DOMAIN-SUFFIX,pi.ai
 
-# Jasper / Core
+# Jasper 
 DOMAIN-SUFFIX,jasper.ai
 
-# JetBrains AI / Core
+# JetBrains AI 
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN-SUFFIX,jetbrains.ai
 
-# Kiro / Core
+# Kiro 
 DOMAIN-SUFFIX,kiro.dev
 
-# LangChain / Core
+# LangChain 
 DOMAIN-SUFFIX,langchain.com
 
-# Leonardo AI / Core
+# Leonardo AI 
 DOMAIN-SUFFIX,leonardo.ai
 
-# LMArena / Core
+# LMArena 
 DOMAIN-SUFFIX,lmarena.ai
 
-# LM Studio / Core
+# LM Studio 
 DOMAIN-SUFFIX,lmstudio.ai
 
-# Lovable / Core
+# Lovable 
 DOMAIN-SUFFIX,lovable.dev
 
-# Lovart / Core
+# Lovart 
 DOMAIN-SUFFIX,lovart.ai
 
-# Luma AI / Core
+# Luma AI 
 DOMAIN-SUFFIX,lumalabs.ai
 
-# Manus / Core
+# Manus 
 DOMAIN-SUFFIX,manus.im
 DOMAIN-SUFFIX,manuscdn.com
 
-# Meta AI / Core
+# Meta AI 
 DOMAIN,ai.meta.com
 DOMAIN-SUFFIX,atmeta.com
 DOMAIN-SUFFIX,llama.com
 DOMAIN-SUFFIX,meta.ai
 
-# Midjourney / Core
+# Midjourney 
 DOMAIN-SUFFIX,midjourney.com
 
-# Mistral AI / Core
+# Mistral AI 
 DOMAIN-SUFFIX,mistral.ai
 
-# Ollama / Core
+# Ollama 
 DOMAIN-SUFFIX,ollama.com
 
-# OpenAI / Core
+# OpenAI 
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
@@ -366,101 +364,101 @@ DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
 DOMAIN-SUFFIX,turn.livekit.cloud
 
-# OpenArt / Core
+# OpenArt 
 DOMAIN-SUFFIX,openart.ai
 
-# OpenClaw / Core
+# OpenClaw 
 DOMAIN-SUFFIX,openclaw.ai
 
-# OpenRouter / Core
+# OpenRouter 
 DOMAIN-SUFFIX,openrouter.ai
 
-# Otter.ai / Core
+# Otter.ai 
 DOMAIN-SUFFIX,otter.ai
 
-# Perplexity / Core
+# Perplexity 
 DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
 DOMAIN,pplx-res.cloudinary.com
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,perplexity.com
 DOMAIN-SUFFIX,pplx.ai
 
-# Phind / Core
+# Phind 
 DOMAIN-SUFFIX,phind.com
 
-# Pika / Core
+# Pika 
 DOMAIN-SUFFIX,pika.art
 
-# Poe / Core
+# Poe 
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,poecdn.net
 
-# Recraft / Core
+# Recraft 
 DOMAIN-SUFFIX,recraft.ai
 
-# Replicate / Core
+# Replicate 
 DOMAIN-SUFFIX,replicate.com
 DOMAIN-SUFFIX,replicate.delivery
 
-# Replit / Core
+# Replit 
 DOMAIN-SUFFIX,repl.co
 DOMAIN-SUFFIX,repl.it
 DOMAIN-SUFFIX,replit.app
 DOMAIN-SUFFIX,replit.com
 DOMAIN-SUFFIX,replit.dev
 
-# Runway / Core
+# Runway 
 DOMAIN-SUFFIX,runway.com
 DOMAIN-SUFFIX,runwayml.com
 
-# Sourcegraph / Core
+# Sourcegraph 
 DOMAIN-SUFFIX,ampcode.com
 DOMAIN-SUFFIX,ampworkers.com
 DOMAIN-SUFFIX,cody.dev
 DOMAIN-SUFFIX,sourcegraph.com
 
-# Stability AI / Core
+# Stability AI 
 DOMAIN-SUFFIX,stability.ai
 
-# Suno / Core
+# Suno 
 DOMAIN-SUFFIX,suno.ai
 DOMAIN-SUFFIX,suno.com
 
-# Synthesia / Core
+# Synthesia 
 DOMAIN-SUFFIX,synthesia.io
 
-# Tabnine / Core
+# Tabnine 
 DOMAIN-SUFFIX,tabnine.com
 
-# Together AI / Core
+# Together AI 
 DOMAIN-SUFFIX,together.ai
 DOMAIN-SUFFIX,together.xyz
 
-# Udio / Core
+# Udio 
 DOMAIN-SUFFIX,udio.com
 
-# v0 / Core
+# v0 
 DOMAIN-SUFFIX,v0.app
 DOMAIN-SUFFIX,v0.dev
 
-# Windsurf / Core
+# Windsurf 
 DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,codeiumdata.com
 DOMAIN-SUFFIX,windsurf.build
 DOMAIN-SUFFIX,windsurf.com
 
-# xAI / Core
+# xAI 
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grok.x.com
 DOMAIN-SUFFIX,x.ai
 
-# You.com / Core
+# You.com 
 DOMAIN-SUFFIX,you.com
 
-# YouMind / Core
+# YouMind 
 DOMAIN-SUFFIX,youmind.ai
 DOMAIN-SUFFIX,youmind.com
 DOMAIN-SUFFIX,youmind.site
 
-# Zed / Core
+# Zed 
 DOMAIN-SUFFIX,zed.dev
